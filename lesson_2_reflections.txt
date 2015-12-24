@@ -1,2 +1,4 @@
 What happens when you initialize a repository? Why do you need to do it?
 You create a new repository with no commits, necessary for tracking changes
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is where you tell git what files in the repository are going to be committed. I'm not sure why it can't find that out itself, but meh
