@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 You create a new repository with no commits, necessary for tracking changes
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is where you tell git what files in the repository are going to be committed. I'm not sure why it can't find that out itself, but meh
+How can you use the staging area to make sure you have one commit per logical change?
+Only files listed in the staging area will be commited, so you can edit multiple different files with different changes and commit them one at a time
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When adding a new experimental feature or changing the language of the program, branches keep a working version intact while working on these features
